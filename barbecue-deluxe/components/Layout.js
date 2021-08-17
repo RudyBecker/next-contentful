@@ -18,7 +18,7 @@ export default function Layout({ children }) {
       <div className="page-content">{children}</div>
 
       <footer>
-        <p>Copyright 2021 Barbecue Deluxe :)</p>
+        <p>Copyright 2021 Barbecue Deluxe</p>
       </footer>
     </div>
   );
