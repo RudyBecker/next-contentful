@@ -9,6 +9,7 @@ export default function NotFound() {
     setTimeout(() => {
       router.push('/');
     }, 4000);
+    return () => clearTimeout();
   }, []);
   return (
     <div className="not-found">
